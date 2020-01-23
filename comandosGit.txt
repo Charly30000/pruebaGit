@@ -1,0 +1,37 @@
+git init --> inicia un repositorio git en local si no lo enlazamos
+
+git clone http://...../ --> para clonar un repositorio (si estas en remoto, 
+    tienes que crearlo en el repositorio remoto directamente)
+    Si hacemos el repositorio desde local para llevarlo al remoto, se hace el git clone directamente
+
+git status --> te dice como esta tu repositorio en el momento
+
+en este ejemplo:
+
+    https://github.com/Charly30000/pruebaGit.git
+    sino
+    https://github.com/Charly30000/pruebaGit
+
+git add nombreArchivo --> para añadir un archivo a sincronizar con git
+    - Se podria hacer : git add *.html
+    - git add --all que es lo mismo que poner git add -A --> con este se almacena todo, incluso las subcarpetas
+
+git rm --cached noimportante.txt --> para hacer que ese fichero lo ignore (para eliminarlo)
+
+git reset noimportante.txt --> igual que el git rm
+
+Hay un fichero llamado .gitignore
+A este fichero le añadimos el nombre de los archivos o de las carpetas para solo tener que modificar
+ese fichero, y asi ignore todo lo que hay puesto ahi. ej:
+    noimportante.txt
+    assets/foto
+    *.html
+    vendor/
+    config.ini
+
+git commit -m --> Hace una instantanea, y ademas es obligatorio añadirle un mensaje descriptivo del commit
+    git commit -m "Soy un mensaje"
+
+git commit -am "mensaje" --> es un git add + git commit
+
+git commit --ammend -m "mensaje"--> sirve para enmendar algo que te faltaba en el ultimo commit

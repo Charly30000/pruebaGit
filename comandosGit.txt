@@ -35,3 +35,11 @@ git commit -m --> Hace una instantanea, y ademas es obligatorio añadirle un men
 git commit -am "mensaje" --> es un git add + git commit
 
 git commit --ammend -m "mensaje"--> sirve para enmendar algo que te faltaba en el ultimo commit
+
+git config --global user.name "charly30000" -> para configurar el nombre del usuario
+
+git config --global user.email "andresbuzon@hotmail.com"
+
+git config --list --> ves todos los parametros de configuracion
+
+git log --> te dice el diario de commits

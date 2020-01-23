@@ -43,3 +43,5 @@ git config --global user.email "andresbuzon@hotmail.com"
 git config --list --> ves todos los parametros de configuracion
 
 git log --> te dice el diario de commits
+
+nuestro repositorio remoto se va a llamar siempre "origin"

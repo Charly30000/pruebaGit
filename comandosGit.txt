@@ -46,8 +46,12 @@ git log --> te dice el diario de commits
 
 nuestro repositorio remoto se va a llamar siempre "origin"
 
-git remote add origin https://github.com/Charly30000/pruebaGit.git
+git remote add origin https://github.com/Charly30000/pruebaGit.git --> Asociar el repositorio local al remoto
 
 para subirlo es:
 
-git push origin master
+git push origin master (-u) --> subes el archivo, con -u, lo guarda automaticamente y solo necesitarias usuario 
+    git push, sin tener que poner nada más
+
+git pull --> obtienes los cambios que has hecho (por si lo has hecho con otra persona o en otro ordenador)
+

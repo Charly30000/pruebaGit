@@ -55,3 +55,12 @@ git push origin master (-u) --> subes el archivo, con -u, lo guarda automaticame
 
 git pull --> obtienes los cambios que has hecho (por si lo has hecho con otra persona o en otro ordenador)
 
+git branch ramaNueva --> crea una rama nueva en el punto en el que estes
+
+git checkout ramaNueva --> para cambiarte a la rama nueva que has creado
+
+git merge ramaNueva --> te colocas primero en la rama master, y luego pones el comando con el nombre de la rama
+
+git checkout c5fa2d5....(como se llame ese commit) --> te permite viajar atras en el tiempo
+
+git checkout - --> Te permite volver al punto normal en el tiempo

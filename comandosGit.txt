@@ -45,3 +45,9 @@ git config --list --> ves todos los parametros de configuracion
 git log --> te dice el diario de commits
 
 nuestro repositorio remoto se va a llamar siempre "origin"
+
+git remote add origin https://github.com/Charly30000/pruebaGit.git
+
+para subirlo es:
+
+git push origin master

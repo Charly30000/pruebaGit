@@ -64,3 +64,5 @@ git merge ramaNueva --> te colocas primero en la rama master, y luego pones el c
 git checkout c5fa2d5....(como se llame ese commit) --> te permite viajar atras en el tiempo
 
 git checkout - --> Te permite volver al punto normal en el tiempo
+
+git ckeckout -b prueba --> Te crea y te mueve de rama al instante

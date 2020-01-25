@@ -66,3 +66,14 @@ git checkout c5fa2d5....(como se llame ese commit) --> te permite viajar atras e
 git checkout - --> Te permite volver al punto normal en el tiempo
 
 git ckeckout -b prueba --> Te crea y te mueve de rama al instante
+
+Para hacerlo con mas gente:
+    - Crea el repo el github
+    - El dueño hace un clone 
+    - Editar
+    - push
+    -------
+    Los compañeros:
+    - editar algo sin chafarse
+    - hacen un push
+    - El dueño acepta el pull request

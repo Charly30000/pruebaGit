@@ -94,3 +94,26 @@ Resolucion de conflictos en merge. La situacion habitual ->
         - hacemos un commit
 
 git diff --> muestra las diferencias
+
+git tag --> te muestra todos los tags
+git tag -a v1.4 -m "my version 1.4" --> te crea un tag con -a y le pones un mensaje con -m
+git tag -l "v1.8.5*" --> te muestra todas las versiones del tag que tu decidas
+git tag -d <tagname> --> elimina un tag
+git tag "v1.0" --> etiqueta blanda
+
+Ejemplo:
+    - Colocate en master
+    - Etiqueta el ultimo commit (git tag "v1.0")
+    - Haz un cambio --> commit
+    - Haz otro cambio --> commit
+    - Haz otro cambio, graba
+    - Nos arrepentimos y recuperamos el fichero del ultimo commit:
+        - git checkout -- <fichero>
+    - No es suficiente
+        - Viajo al pasado y miro a ver cual es el estado que me interesa:
+            - git checkout <commit>
+                vuelvo y hago git git checkout master
+        - Me traigo el fichero que me interesa
+            - git checkout <commit> <fichero.txt>
+        - Añade fichero
+        - Commit

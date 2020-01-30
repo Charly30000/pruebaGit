@@ -77,3 +77,20 @@ Para hacerlo con mas gente:
     - editar algo sin chafarse
     - hacen un push
     - El dueño acepta el pull request
+
+git pull --> añade y busca etiquetas.
+    Las etiquetas pueden ser cualquier texto, pero habitualmente son marcas de version
+    ej: "v1.1"
+
+Resolucion de conflictos en merge. La situacion habitual ->
+    - Crear un proyecto con ficheros ->
+        ej: uno.txt dos.txt
+    - Hacemos un git add y un commit en master
+    - Creamos una rama
+    - Modificamos el mismo fichero en ambas ramas
+    - Intentamos mezclar la rama nueva en master
+        - resolver el conflicto manualmente
+        - añadimos el fichero al stage
+        - hacemos un commit
+
+git diff --> muestra las diferencias
